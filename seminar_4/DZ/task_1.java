@@ -16,9 +16,13 @@ public class task_1 {
         startList.add(1);
         startList.add(3);
         startList.add("last");
-        System.out.println(startList.toString());
-        Collections.reverse(startList);
-        endList = startList;
+        System.out.println(startList);
+        endList = reverseList(startList);
         System.out.println(endList);
+    }
+        
+    public static LinkedList<Object> reverseList(LinkedList<Object> startList) {
+        Collections.reverse(startList);
+        return startList; 
     }
 }
