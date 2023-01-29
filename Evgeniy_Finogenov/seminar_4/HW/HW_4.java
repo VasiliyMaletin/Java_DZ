@@ -53,10 +53,6 @@ public class HW_4 {
             gender.add(tmp[4].equals("Ж") ? true : false);
             index.add(i);
         }
-        System.out.println("----------Список Имён и Отчеств----------");
-        System.out.println(name);
-        System.out.println(patronymic);
-        System.out.println();
         
         System.out.println("----------Форматированный вывод----------");
         for (int i = 0; i < index.size(); i++) {
